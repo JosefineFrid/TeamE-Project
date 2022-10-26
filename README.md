@@ -9,3 +9,6 @@ The plan is to focus on one graph each but help eachother out when we need help.
 Ilayda: 3.2
 Josefine: "Own" graph
 Hristiana: 3.4
+
+Due to that we are now only two people we will make our own graph and 3.2.
+We are looking at using librarys for the data.
