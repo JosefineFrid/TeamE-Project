@@ -18,31 +18,6 @@ I am trying to clean up the data by doing the case study from tutorial 3. This i
 
 #!/bin/bash
 
-########################################################################
-# 
-# shmicleaner.sh - MNXB01-2021 Tutorial
-#
-# Author: Florido Paganelli florido.paganelli@hep.lu.se
-#
-# Description: this script manuipulates specific SMHI dataset and 
-#              performs some cleaning actions on it, namely:
-#              - Takes an SMHI datafile <filename> from a specified path in the filesystem
-#              - Cleanses up unwanted information in the data file and
-#                 extracts just the raw temperature data in
-#                 - rawdata_<filename>
-#              - prepares the file to be read by standard C++ 
-#                CSV libraries
-#
-# Examples:
-#        ./smhicleaner.sh ../data/smhi-opendata_1_52240_20200905_163726.csv
-#
-# NOTE: the paths above are examples.
-# So you should NOT assume the file is exactly in any of the above paths.
-# The code must be able to process any possible file path.
-#
-########################################################################
-
-
 ###### Functions #######################################################
 
 ## usage
